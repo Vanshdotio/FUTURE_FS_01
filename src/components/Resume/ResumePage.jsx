@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { RiArrowLeftSLine, RiDownloadLine } from "react-icons/ri";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import resumePdf from "../../assets/pdf/Vansh_Sharma_resume.pdf";
+import resumeImg from "../../assets/image/Vansh_Sharma_resume-1.png";
 
 export default function ResumePage() {
   // Scroll to top on mount
@@ -71,7 +73,7 @@ export default function ResumePage() {
               className="mt-7"
             >
               <a
-                href="/src/assets/pdf/Vansh_Sharma_Resume.pdf"
+                href={resumePdf}
                 download
                 className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full bg-white border border-slate-200 shadow-sm hover:shadow-md hover:border-slate-300 text-slate-800 font-sans text-sm font-semibold transition-all duration-300 hover:-translate-y-0.5 group"
               >
@@ -94,7 +96,7 @@ export default function ResumePage() {
 
               {/* Resume Image */}
               <img
-                src="/src/assets/image/Vansh_Sharma_resume-1.png"
+                src={resumeImg}
                 alt="Vansh Sharma Resume"
                 className="w-full h-auto rounded-lg select-none"
                 draggable={false}

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { personalInfo } from "../../data/portfolioData";
+import introImage from "../../assets/image/intro_image.png";
 
 export default function About() {
   return (
@@ -27,7 +28,7 @@ export default function About() {
               {/* Photo Frame */}
               <div className="aspect-square w-full overflow-hidden bg-slate-100 rounded-sm mb-6 relative">
                 <img
-                  src="/src/assets/image/intro_image.png"
+                  src={introImage}
                   alt="Vansh Casual Candid"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   loading="lazy"

@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { RiMapPinLine } from "react-icons/ri";
 import { gsap } from "gsap";
+import heroLedgeImage from "../../assets/image/ChatGPT_Image_Jun_28__2026__04_35_54_PM__1_-removebg-preview.png";
 
 export default function Hero() {
   const containerRef = useRef(null);
@@ -51,10 +52,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-[115%] z-0 bg-gradient-to-b from-[#1B8AE5] to-[#b3dcff]"
       >
         <img
-          src="/assets/hero_background_1782642609840.png"
-          onError={(e) => {
-            e.target.src = "/assets/hero_bg.png";
-          }}
+          src="/assets/hero_bg.png"
           alt="Blue Sky with Clouds"
           className="w-full h-full object-cover object-bottom opacity-50 mix-blend-overlay"
         />
@@ -183,7 +181,7 @@ export default function Hero() {
         className="absolute right-[-25%] sm:right-[-15%] md:right-[-10%] lg:right-[-6%] xl:right-[-3%] bottom-[-10px] w-[145%] sm:w-[110%] md:w-[92%] lg:w-[80%] xl:w-[68%] 2xl:w-[62%] max-h-[92vh] z-10 select-none pointer-events-none flex items-end justify-end"
       >
         <img
-          src="/src/assets/image/ChatGPT_Image_Jun_28__2026__04_35_54_PM__1_-removebg-preview.png"
+          src={heroLedgeImage}
           alt="Vansh Sitting on Ledge"
           className="w-full h-full object-contain object-bottom filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.15)]"
         />

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { RiDownloadLine, RiLinkedinLine, RiGithubLine, RiPhoneLine, RiMailLine } from "react-icons/ri";
+import resumePdf from "../../assets/pdf/Vansh_Sharma_resume.pdf";
 
 export default function Resume() {
   return (
@@ -55,7 +56,7 @@ export default function Resume() {
           className="mt-7"
         >
           <a
-            href="/resume.pdf"
+            href={resumePdf}
             download
             className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full bg-white border border-slate-200 shadow-sm hover:shadow-md hover:border-slate-300 text-slate-800 font-sans text-sm font-semibold transition-all duration-300 hover:-translate-y-0.5 group"
           >

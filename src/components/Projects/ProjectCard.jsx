@@ -33,10 +33,7 @@ export default function ProjectCard({ project, index, total, innerRef }) {
         {/* Sky Background Clouds Image Overlay */}
         <div className="absolute inset-0 w-full h-full z-0 overflow-hidden pointer-events-none select-none">
           <img
-            src="/assets/hero_background_1782642609840.png"
-            onError={(e) => {
-              e.target.src = "/assets/hero_bg.png";
-            }}
+            src="/assets/hero_bg.png"
             alt="Sky background clouds"
             className="w-full h-full object-cover opacity-45 mix-blend-overlay"
           />
