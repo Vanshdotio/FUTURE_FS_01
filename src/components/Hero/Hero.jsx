@@ -157,7 +157,7 @@ export default function Hero() {
           >
             <span>BASED IN</span>
             <RiMapPinLine className="text-[#1B8AE5] text-sm animate-bounce" />
-            <span className="font-bold">DELHI, INDIA</span>
+            <span className="font-bold">GHAZIABAD, UP</span>
           </motion.div>
 
           {/* Tagline details */}
