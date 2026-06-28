@@ -116,10 +116,10 @@ export default function Stats() {
                 className="flex flex-col gap-2.5"
               >
                 <div className="text-5xl md:text-6xl font-display font-black text-[#1B8AE5] tracking-tight leading-none">
-                  2+
+                  6+
                 </div>
                 <div className="text-sm font-sans font-bold text-slate-900 mt-1">
-                  Years experience
+                  Months experience
                 </div>
                 <p className="text-xs text-slate-500 font-sans leading-relaxed">
                   building scalable backends, robust REST APIs, and designing interactive MERN applications.
@@ -135,7 +135,7 @@ export default function Stats() {
                 className="flex flex-col gap-2.5"
               >
                 <div className="text-5xl md:text-6xl font-display font-black text-[#1B8AE5] tracking-tight leading-none">
-                  20+
+                  5+
                 </div>
                 <div className="text-sm font-sans font-bold text-slate-900 mt-1">
                   Projects completed
