@@ -25,10 +25,10 @@ export const projects = [
     id: "swift-support",
     title: "Swift Support",
     subtitle: "AI Customer Support Platform",
-    description: "An automated customer support solution utilizing advanced NLP models to resolve tickets in real-time, featuring instant chat, automated sentiment analysis, and a comprehensive agent workspace.",
+    description: "Developed and actively contributed to an automated customer support solution utilizing advanced NLP models to resolve tickets in real-time. Built key features such as instant chat, automated sentiment analysis, and a comprehensive agent workspace, contributing to both frontend and backend development.",
     tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "OpenAI API"],
-    liveUrl: "",
-    githubUrl: "https://github.com",
+    liveUrl: "https://hackathon-swiftsupport-ifvz.vercel.app/",
+    githubUrl: "https://github.com/ScriptiveMen/hackathon-swiftsupport.git",
     image: "/assets/projects/swift_support.png"
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     title: "The Archive",
     subtitle: "Library Management System",
     description: "A digital sanctuary for reading and organizing. Features a clean cataloging system, digital shelf tracking, barcode generation, real-time availability checks, and automatic overdue notifications.",
-    tech: ["React", "Framer Motion", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+    tech: ["React", "GSAP", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
     liveUrl: "https://library-management-system-weld-six.vercel.app/",
     githubUrl: "https://github.com/Vanshdotio/library-management-system.githttps://github.com",
     image: "/assets/projects/the_archive.png"
